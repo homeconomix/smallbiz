@@ -1,0 +1,175 @@
+/* { 
+  outline: 1px solid black;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Mario's CSS */
+.header {
+	background-color: #3399ff;
+	overflow:auto;
+	height: 75px
+}
+
+.pull-right {
+	float: right;
+	margin-right: 100px;
+}
+
+.pull-rightless {
+	float: right;
+	margin-top: 75px;
+	margin-right: 300px;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-leftless {
+	float: left;
+	margin-left: 200px;
+}
+
+.topnavlogo {
+	position:absolute;
+	left:150px;
+	top:15px;
+}
+
+.topnav {
+	margin-top: 15px;
+}
+
+#tagline {
+	text-align: center;
+	font-size: 32px;
+	padding: 25px;
+}
+
+#wrapper {
+
+}
+
+#wrapper-main {
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.tout {
+	font-size: 2.5em;
+	padding: 5px;
+}
+
+.list {
+	padding-right: 10px;
+	padding-left: 0px;
+	margin-right: 10px;
+	margin-left: 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+button {
+	background-color: #ffff00;
+	font-size: 2.5em;
+	border-radius: 4px;
+	padding: 10px 40px 10px 40px;
+	margin: 10px;
+}
+
+.form {
+	padding-top: 20px;
+	text-align: center;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial;
+  font-size: 0.9em;
+}
+
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0px 0px -100px 0px;
+}
+
+#footer-wrapper {
+	height: 100px;
+	background:#cccccc;
+}
+
+.footer {
+	margin-top: 10px;
+}
+
+.footer-left{
+	margin-top: 10px;
+	margin-left: 150px;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+a:visited {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a:active {
+	text-decoration:underline;
+}
